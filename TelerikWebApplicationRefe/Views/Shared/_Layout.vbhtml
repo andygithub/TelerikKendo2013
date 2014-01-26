@@ -42,8 +42,8 @@
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
-
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryajax")
     @RenderSection("scripts", required:=False)
 </body>
 </html>

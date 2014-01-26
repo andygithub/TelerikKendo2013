@@ -193,13 +193,16 @@
     <Compile Include="App_Start\RouteConfig.vb" />
     <Compile Include="App_Start\Startup.Auth.vb" />
     <Compile Include="Controllers\AccountController.vb" />
+    <Compile Include="Controllers\DashboardController.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.vb" />
     <Compile Include="Models\Address.vb" />
     <Compile Include="Models\Employee.vb" />
+    <Compile Include="Models\FilterSaveCompleted.vb" />
     <Compile Include="Models\IdentityModels.vb" />
+    <Compile Include="Models\Dashboard.vb" />
     <Compile Include="Models\TreeViewRefModel.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -271,6 +274,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
@@ -289,6 +294,8 @@
     <Content Include="Views\Home\GridNested.vbhtml" />
     <Content Include="Views\Home\GridPageSort.vbhtml" />
     <Content Include="Views\Home\TreeViewRef.vbhtml" />
+    <Content Include="Views\Dashboard\Index.vbhtml" />
+    <Content Include="Views\Dashboard\SaveFilters.vbhtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -316,7 +323,6 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>

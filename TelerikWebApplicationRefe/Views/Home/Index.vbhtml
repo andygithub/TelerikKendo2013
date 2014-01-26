@@ -10,6 +10,7 @@ End Code
         <li>@Html.ActionLink("Grid - Paging, Sorting, Filtering", "GridPageSort")</li>
         <li>@Html.ActionLink("Grid - Nested", "GridNested")</li>
         <li>@Html.ActionLink("Grid - Custom Command", "GridCustomCommand")</li>
+        <li>@Html.ActionLink("Dashboard - Custom Master Detail","Index" ,"Dashboard")</li>
     </ul>
 </div>
 
